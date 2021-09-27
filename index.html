@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form - CodeClub</title>
+
+        <!--css-->
+        <link rel="stylesheet" href="css/style.css">
+    
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form method="POST" id="main-form" action="https://formsubmit.co/gustavovbs270@gmail.com">
+            <h1>Contact Form</h1>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://thankyou-page-cc.netlify.app/">
+            <input type="text" name="name" id="name" placeholder="Your name..." required>
+            <input type="email" name="email" id="email" placeholder="Your email..." required>
+            <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+            <button form="main-form" id="submit" type="submit">Submit</button>
+        </form>
+    </body>
+</html>
